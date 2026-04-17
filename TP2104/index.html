@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="general.css">
+    <title>Almendra</title>
+    <!-- Sacado de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Forum&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    
+    <div class="hero">
+        <header class="header">
+            <h1 class="h1">
+                A L M E N D R A
+            </h1>
+
+            <h3 section id="inicio" class="inicio">BIENVENIDOS</h3>
+            <nav>
+                <a href="#nosotras" class="a a-nosotras">
+                    NOSOTRAS
+                </a>
+                <a href="productos.html" class="a a-productos">
+                    PRODUCTOS
+                </a>
+                <a href="#contacto" class="a a-contacto">
+                    CONTACTO 
+                </a>
+            </nav>
+        </header>
+    </div>
+
+    <div class="pag"> 
+        <h3 section id="nosotras" class="h3">
+            NOSOTRAS
+        </h3>
+        <div class="card-container">
+            
+            <div class="card">
+                <img src="IMG/florimg.png" alt="Flor" class="img">
+                <p class="txtcard">
+                    Mi nombre es Agustina, tengo 25 años y soy la encargada de Marketing.
+                </p>
+            </div>
+        </div>
+
+
+        
+        <div class="card-container">
+            <div class="card">
+                <img src="IMG/joimg.png" alt="Josefina" class="img">
+                <p class="txtcard">
+                    Mi nombre es Josefina, tengo 27 años y soy la encargada de Ventas.
+                </p>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <img src="IMG/0413.png" alt="Flor" class="img">
+                <p class="txtcard">
+                    Mi nombre es Flor, tengo 27 años y soy la encargada de que las cuentas den bien.
+                </p>
+            </div>
+        </div>
+    
+        <div class="card-container">
+            <div class="card">
+                <img src="IMG/nino22.webp" alt="Joaco" class="img">
+                <p class="txtcard">
+                    Mi nombre es Joaquin, tengo 23 años y soy el encargado de deposito.
+                </p>
+            </div>
+        </div>
+    
+    </div>
+    <hr>
+    <div class="pag">
+        <h3 section id="contacto" class="h3">
+            CONTACTO
+        </h3>
+        <p class="txt"> 
+            Ante cualquier consulta podes contactarte con nosotros.
+            Nuestro horario de trabajo es de 09:00 a 18:00.
+            Dejanos tus datos que nos pondremos en contacto con vos.
+        </p>
+        
+        <!--class="form" action="#" method="get"-->
+        <form class="form">
+            <div class="formitem">
+                <label for="nombre">Nombre:</label>
+                <input type="text" placeholder="Escribí tu nombre" name="nombre">
+            </div>
+            <div class="formitem">
+                <label for="select">Selecciona sobre que es tu consulta:</label>
+                    <input type="radio" name="consulta" value="Compras de productos"> Compras de productos
+                    <input type="radio" name="consulta" value="Reintegro de productos"> Reintegro de productos
+                    <input type="radio" name="consulta" value="Envios"> Envios
+                    <input type="radio" name="consulta" value="Otro"> Otro
+            </div>
+            <div class="formitem">
+                <label for="Consulta"> Consulta: </label>
+                <input type="text"placeholder="Indicanos en que te podemos ayudar" name="Consulta">
+            </div>
+            <div class="formitem">  
+                <button type="submit"> Enviar </button>
+            </div>  
+        </form> 
+    </div>
+    <hr>
+    <footer class="footer">
+       <p>
+        Almendra | CBA
+       </p>  
+    </footer>
+</body>
+</html>
+
+

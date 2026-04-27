@@ -1,0 +1,90 @@
+/*header*/
+header{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #C9B26B;
+    margin: auto;
+    flex-direction: column;
+    font-family: "Trirong", serif;
+    align-content: space-around;
+    align-items: stretch;
+}
+
+.sectionh{
+    background-color: rgb(237, 230, 221);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Trirong", serif;
+    font-size: 12px;
+}
+
+.divh{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul a{
+    color: #6b6963;
+    text-decoration: none;
+    background-color: #EDE6DD;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+ul a:hover{
+    color: #EDE6DD;
+    text-decoration: none;
+    background-color: #A88F4F;
+    border-radius: 100px;
+    font-size: 22px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+main {
+    background-image: url(../IMG/fondomain.jpg);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+main::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(255, 255, 255, 0.7); /* efecto transparente */
+}
+
+main h1 {
+    position: relative;
+    color: black;
+    font-family: "Trirong", serif;
+    font-size: 50px;
+    color: #A88F4F;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);}
+/*main
+
+main{
+    background-image: url(../IMG/fondomain.jpg);
+    height: 100vh;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+main h1{
+    color: black;
+}
